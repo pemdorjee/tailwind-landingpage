@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html,body{
+        overflow-x: hidden
+    }
+    body {
+        @apply font-pema-font;
+    }
+    h1,h2,h3{
+            @apply font-pema-font text-gray-800 font-medium
+    }
+    .container{
+        @apply px-6 py-12 max-w-7xl mt-16 mx-auto lg:px-8 lg:mt-32
+    }
+}
